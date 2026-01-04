@@ -1,0 +1,720 @@
+*{
+margin: 0%;
+padding: 0%;
+
+}
+
+#main{
+    height: auto;
+    width: 100%;
+
+}
+#nav{
+    height: 27px;
+    width: 100%;
+    background: #dddddd;
+    border-bottom: 2px dashed #8e0000;
+    font: 10px Verdana ,Geneva,sans-serif;
+    
+  
+   
+}
+#nav ul{
+    list-style: none;
+    margin-left: 12%;
+    
+    
+}
+#nav ul li{
+  border-right:  1px solid #8e0000;
+  display: flex;
+  float: left;
+ padding-left: 10px;
+ padding-right: 10px;
+;
+}
+#nav ul a{
+   text-decoration: none;
+   color: #630101;
+   line-height: 27px;
+   font-weight: 600;
+}
+.logo{
+    display: flex;
+    margin-top: 19px;
+    margin-left: 185px;
+    height: 89px;
+}
+.logo-detail{
+    margin-bottom: 25px;
+    margin-left: 2px;
+}
+.logo2{
+    margin-left: 40px;
+}
+
+.logo-img{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+.logo2 input{
+    display: block;
+    height: 28px;
+    width: 210px;
+    border-radius: 20px;
+    margin-bottom: 0%;
+    
+}
+.logo2 input::placeholder{
+    color: #8e0000;
+    font-weight: 600;
+   
+   
+}
+.logo3{
+    margin-left: 30px;
+}
+.menu2{
+    background: #8e0000;
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+   
+}
+.menu2 ul{
+    display: flex;
+    list-style: none;
+     margin-left: 178px;
+     padding: 10px 4px;
+     gap: 10px;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.sec {
+    padding-top: 0%;
+    display: flex;
+}
+.sec-1{
+ background: #caedfd;
+    height: 315px;
+    width: 50%;
+    
+}
+.header{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.header-img{
+     height: 400px;
+     width: 67%;
+}
+.sec{
+    height: 301px;
+    width: 33%;
+    margin-top:0px;
+}
+.sec-1{
+    height: 315px;
+    width: 50%;
+}
+.sec-1a{
+    color: #8e0000;
+   background: #8fd8f9;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+} 
+.sec-2{
+    background: whitesmoke;
+    height: 301px;
+    width: 50%;
+}
+.sec-1b{
+    color: #8e0000;
+    padding: 10px 15px;
+     text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    background: #b6d144;
+}
+.note{
+    margin-top: 0%;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    border-top: 2px dashed #8e0000;
+   border-bottom: 2px dashed #8e0000;
+}
+.note-1{
+    padding: 10px 15px;
+    background: #8e0000;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 102px;
+}
+.moving-text{
+    padding: 10px 15px;
+    background:rgba(128, 128, 128, 0.151) ;
+    width: 100%;
+    color: #337ab7;
+
+}
+.moving-text :hover{
+   text-decoration: underline;
+}
+.addm{
+    text-align: center;
+    
+    width: 100%;
+    height: 140px;
+    
+}
+.Admission{
+    background: #3379b76a;
+}
+.addm h1{
+    color: #8e0000;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-size: 26px;
+    margin-left:15% ;
+    margin-right: 15%;
+    padding-top: 20px;
+    
+}
+.addm a{
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 26px;
+        font-family: 'Montserrat', sans-serif;
+         font-weight: 600;
+}
+.student-section{
+    width: 100%;
+    height: 396px;
+    display: flex;
+    margin-left: 50px;
+}
+.info{
+    margin-top: 10px;
+    margin-left: 125px;
+    display: flex;
+}
+.student{
+    height: 100%;
+    width: 390px;
+}
+.student div img{
+    height: 80px;
+    width: 80px;
+    padding: 2px 22px ;
+}
+.studentrow1{
+    display: flex;
+
+}
+.studentrow2{
+     display: flex;
+}
+.studentrow3{
+     display: flex;
+}
+.studentrow1 p{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: #8e0000;
+    font-weight: bolder;
+    position: relative;
+    top: 4px;
+    padding-top: 0%;
+    margin-bottom: 8px;
+}
+.studentrow2 p{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: #8e0000;
+    font-weight: bolder;
+    position: relative;
+    top: 4px;
+    margin-bottom: 8px;
+}
+.studentrow3 p{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: #8e0000;
+    font-weight: bolder;
+    position: relative;
+    top: 4px;
+}
+
+.student h1{
+        color: #740c01;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #740c01;
+    text-align: center;
+    font-size: 22px;
+}
+.mentor{
+    height: 365px;
+    width:780px ;
+    margin-left: 30px;
+    
+}
+.info1{
+    display: flex;
+    gap: 10px;
+    
+}
+.studentrow4{
+    height: 310px;
+    width: 195px;
+    
+}
+.studentrow5{
+    height: 310px;
+    width: 195px;
+}
+.studentrow6{
+    height: 310px;
+width: 195px;
+}
+.studentrow7{
+    height: 310px;
+    width: 195px;
+}
+.mentor h1{
+        color: #740c01;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #740c01;
+    text-align: center;
+    font-size: 22px;
+}
+
+.mentor div img{
+    height: 212px;
+    width: 165px;
+    
+}
+.name{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 12px;
+}
+.name1{
+     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    margin: 10px 0px;
+    height: 22px;
+    width: 165px;
+}
+.mentor button{
+    height: 22px;
+       width: 195px;
+   border: 1px solid #8e0000;
+  
+}
+.mentor button a{
+    text-decoration: none;
+    color: #337ab7;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.aktu-btn {
+    height: 40px;
+    width: 114px;
+     background: #8e0000;
+     position: fixed;      
+      bottom: 300px;         
+        transform: rotate(-90deg);    
+      margin-left: -50px;
+      padding: 14px 10px;
+      font-size: 17px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      
+      cursor: pointer;
+      
+}
+.aktu-btn2 {
+    height: 40px;
+    width: 114px;
+     background: #8e0000;
+     position: fixed;   
+      bottom: 420px;         
+        transform: rotate(-90deg);      
+      margin-left: -50px;
+      padding: 15px 10px;
+      font-size: 14px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+        cursor: pointer;
+}
+.pra1 p{
+    font-size: 12px;
+    color: #8e0000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px dashed #8e0000;
+    padding: 6px 6px;
+}
+.pra2 p{
+    height: 73px;
+   
+     font-size: 15px;
+    color: #8e0000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px dashed #8e0000;
+    padding: 10px 10px;
+}
+.pra3 p{
+    height: 73px;
+   
+     font-size: 15px;
+    color: #8e0000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px dashed #8e0000;
+    padding: 10px 10px;
+}
+.Program{
+    height: 396px;
+    width: 100%;
+    background: #eaf3fb;
+     
+}
+.Program1{
+    height: 45px;
+    width: 1170px;
+    text-align: center;
+    border-bottom: 1px solid #740c01;
+     margin-left: 180px;
+     padding-top: 60px;
+}
+.Program1 h1{
+         color: #740c01;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+    text-align: center;
+    font-size: 22px;
+}
+.undergraduate{
+    height: 231px;
+    width: 290px;
+    padding: 0px 15px;
+    text-align: center;
+    
+}
+.Post-graduate{
+       height: 231px;
+    width: 290px;
+    padding: 0px 15px;
+    text-align: center;
+}
+.Research{
+    height: 231px;
+    width: 290px;
+    padding: 0px 15px;
+    text-align: center;
+}
+.detail img{
+    height: 130px;
+    width: 130px;
+    margin-left: 70px;
+    
+    
+
+}
+.detail{
+       margin-left: 180px;
+       display: flex;
+       gap: 50px;
+}
+.detail h1{
+    text-transform: uppercase;
+    color: #8e0000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    height: 15px;
+    width: 360px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.ug-info{
+    height: 26px;
+    width: 360px;
+    color: #333333;
+    margin: 10px 0px;
+    font-weight: 100;
+    font-size: 12px;
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.detail a{
+    height: 29px;
+    color: #337ab7;
+    background: #f0f0f0 ;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-left: 80px;
+}
+.our-website{
+    height: 248PX;
+    width: 100%;
+    background:#F1F1F1 ;
+}
+.web-name{
+    height: 45px;
+    width: 1170px;
+    text-align: center;
+    border-bottom: 1px solid #740c01;
+     margin-left: 180px;
+     padding-top: 60px;
+}
+.web-name h1{
+         color: #740c01;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+    text-align: center;
+    font-size: 22px;
+}
+.web-logo{
+    height: 98px;
+    width: 1170px;
+    display: flex;
+    padding-top: 15px;
+    margin-left: 190px;
+   
+}
+.web-logo img{
+    height: 66px;
+    width: 250px;
+    margin-right: 40px;
+    border: 1px solid black;
+}
+.Insti-pract{
+    height: 121px;
+    width: 100%;
+}
+.inst-detail{
+    display: flex;
+    margin-left: 200px;
+     padding: 20px ;
+
+}
+.Insti-pract img{
+    height: 100px ;
+    width: 100px;
+   
+    
+}
+.Insti-pract h1{
+    color: #740c01;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+ 
+    height: 57px;
+    padding: 35px 130px;
+}
+.pract-logo{
+    height: 100px;
+    width: 160px;
+}
+.pract-button{
+   margin-left: 0%;
+   padding: 30px;
+}
+.pract-button button{
+    height: 38px;
+    width: 134px;
+   background:#F1F1F1 ;
+    color: #740c01;
+    border: 2px solid #630101;
+    font-weight: 500;
+}
+.media-gallery{
+    display: flex;
+}
+.gal-info{
+    height: 365px;
+    width: 68%;
+    background: #f5f5f5;
+}
+.gal-det{
+    height: 365px;
+     width: 32%;
+     background: #f0f9cc;
+}
+.gal-name{
+    background: #b6d144;
+    padding: 10px 15px;
+    color: #8e0000;
+    font-size: 15px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight: 600;
+}
+.gallery h1{
+    color: #740c01;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+     border-bottom: 1px solid #8e0000;
+    text-align: center;
+    font-size: 22px;
+}
+.gallery{
+    height: 35px;
+ 
+   
+    padding: 40px ;
+}
+.med-gal{
+    margin: 10px 50px;
+    display: flex;
+    gap: 120px;
+}
+.med-gal img{
+    width: 110px;
+    height: 160px;
+    padding: 20px 15px;
+    
+    
+}
+.med1{
+    height: 200px;
+    width: 135px;
+    background: #e4e4e4;
+}
+.med2{
+    height: 200px;
+    width: 135px;
+    background: #e4e4e4;
+}
+.med3{
+    height: 200px;
+    width: 135px;
+    background: #e4e4e4;
+}
+.med4{
+    height: 200px;
+    width: 135px;
+    background: #e4e4e4;
+}
+.timimg{
+    height: 121px;
+    width: 100%;
+    border-bottom: 2px solid #630101;
+}
+.tim-deta{
+    text-align: center;
+    padding: 60px;
+    color: #5c0801;
+     font-size: 17px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.extra-info{
+    height: 361px;
+    width: 100%;
+    background: #f7f7f7;
+}
+.footer{
+    padding: 30px 200px;
+    display: flex;
+    gap: 50px;
+}
+.extra-info1{
+    height: 299px;
+    width: 290px;
+    
+}
+.extra-info2{
+    height: 299px;
+    width: 290px;
+    
+}
+.extra-info3{
+    height: 270px;
+    width: 290px;
+    
+}
+.extra-info3 iframe{
+    height: 270px;
+    width: 290px;
+}
+.extra-info4{
+    height: 299px;
+    width: 290px;
+    
+}
+.extra-info4 a{
+     color: #337ab7;
+     text-decoration: none;
+     font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: 500;
+     font-family: 'Montserrat', sans-serif;
+     height: 19px;
+     color: #000000;
+     margin: 20px 0px;
+}
+.footer h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: #740c01;
+   font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+
+}
+.foot{
+    height: 55px;
+    width: 100%;
+    background: #1f2a2f;
+}
+.foot  h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 100;    
+    color: white;
+    padding: 22.5px 15px;
+}
